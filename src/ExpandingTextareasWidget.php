@@ -19,7 +19,7 @@ class ExpandingTextareasWidget extends InputWidget
         parent::init();
 
         $this->options = ArrayHelper::merge([
-            'class' => 'expanding',
+            'class' => 'expanding form-control',
         ], $this->options);
 
 
